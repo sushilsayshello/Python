@@ -1,2 +1,11 @@
 def say_hello():
     print ("hello")
+
+
+def say_hello(name='Default'):
+    print (f'Hello {name}')
+
+''' Usually we use return which will save it as variable but print don't'''
+
+def add_num(a,b):
+    print (a+b)
