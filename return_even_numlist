@@ -4,4 +4,8 @@
 def check_even_list(num_list):
     # return all the even numbers in a list
     #placeholder variables
-    
+
+even_numbers = []
+    for number in num_list:
+
+
