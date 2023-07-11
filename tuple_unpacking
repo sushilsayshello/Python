@@ -1,2 +1,9 @@
 stock_prices = [('AppL',200),('GOOG',400),('MSFT',100)]
 
+stock_prices = [('AppL',200),('GOOG',400),('MSFT',100)]
+for item in stock_prices:
+    print(item)
+
+for ticker,price in stock_prices:
+    print(price+(0.1*price))
+
