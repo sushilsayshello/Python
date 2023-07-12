@@ -7,4 +7,7 @@ def employee_check(work_hours):
     employee_of_month = ''
     
     for employee,hours in work_hours:
+        if hours > current_max:
+            current_max = hours
+            employee_of_month = employee
 
