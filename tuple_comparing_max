@@ -1,0 +1,6 @@
+
+
+work_hours = [('Sushil', 100),('Sahil',400),('Sunil',800)]
+def employee_check(work_hours):
+    
+
