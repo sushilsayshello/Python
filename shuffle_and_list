@@ -17,6 +17,8 @@ def check_guess(mylist,guess):
 
 #Initial list
 mylist = ['','0','']
+#Shuffle list
+mixedup_list = shuffle_list(mylist)
 
 
 
