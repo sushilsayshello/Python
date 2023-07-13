@@ -6,5 +6,8 @@ from random import shuffle
 def shuffle_list(mylist):
     shuffle(mylist)
     return mylist
+result = shuffle_list(example)
+Result
+
 
 
