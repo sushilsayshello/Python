@@ -21,6 +21,7 @@ mylist = ['','0','']
 mixedup_list = shuffle_list(mylist)
 #User guess
 guess = player_guess()
-
+#Check Guess
+check_guess(mixedup_list,guess)
 
 
