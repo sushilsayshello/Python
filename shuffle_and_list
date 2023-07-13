@@ -11,7 +11,9 @@ Result
 def check_guess(mylist,guess):
     if mylist[guess] == '0':
         print("Correct!")
-
+        else:
+            print("Wrong guess!")
+            print(mylist)
 
 #Initial list
 mylist = ['','0','']
