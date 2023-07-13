@@ -8,6 +8,13 @@ def shuffle_list(mylist):
     return mylist
 result = shuffle_list(example)
 Result
+def check_guess(mylist,guess):
+    if mylist[guess] == '0':
+        print("Correct!")
+        else:
+            print("Wrong guess!")
+            print(mylist)
+
 
 
 
