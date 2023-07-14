@@ -1,0 +1,3 @@
+#Function to print Hello if true and Goodbye for false
+
+def myfunc(a):
