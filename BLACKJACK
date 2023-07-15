@@ -5,5 +5,8 @@ def blackjack(a,b,c):
     elif 11 in [a,b,c] and sum([a,b,c]) <= 31:
         return sum([a,b,c])-10
     else:
-        return "BUST"
+        return "BUST"\
+
+
+#https://youtu.be/61VILRREHDs
 
