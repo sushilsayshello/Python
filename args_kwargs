@@ -1,2 +1,4 @@
 		Def myfunc(*args,**kwargs):
+		print(‘I would like {} {}’.format(args[0],kwargs[‘food’]))
+
 
