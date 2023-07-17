@@ -2,4 +2,7 @@
 
 def myfunc(*args):
     out = []
+    for num in args:
+
+
 
