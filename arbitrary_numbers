@@ -1,3 +1,5 @@
 #Arbitrary number of arguments, and returns a list containing only those arguments that are even.
 
 def myfunc(*args):
+    out = []
+
