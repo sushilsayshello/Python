@@ -3,4 +3,5 @@
 #and don't worry about numbers, spaces or punctuation. The output string can start with either an uppercase or lowercase letter, 
 #so long as letters alternate throughout the string.
 
+def myfunc(x):
 
