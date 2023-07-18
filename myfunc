@@ -4,4 +4,7 @@
 #so long as letters alternate throughout the string.
 
 def myfunc(x):
+    out = []
+
+
 
