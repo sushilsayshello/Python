@@ -5,6 +5,8 @@
 
 def myfunc(x):
     out = []
+    for i in range(len(x)):
+
 
 
 
