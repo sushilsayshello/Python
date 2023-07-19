@@ -1,0 +1,5 @@
+#If sum makes 20 or more then return true 
+
+def makes_twenty(n1,n2):
+
+
