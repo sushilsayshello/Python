@@ -2,4 +2,9 @@
 
 def makes_twenty(n1,n2):
 
+#Or we can write 
+#Return (n1+n2) == 20 or n1 == 20 or n2 ==20
+
+
+
 
