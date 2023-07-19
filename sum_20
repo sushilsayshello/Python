@@ -9,6 +9,9 @@ def makes_twenty(n1,n2):
         return True
     elif n1 == 20:
         return True
+    elif n2 == 20:
+        return True
+
 
 
 
