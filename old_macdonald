@@ -1,3 +1,6 @@
 #Func to capitalise the first and fourth letters of a name
 
+def old_macdonald(name):
+
+
 
