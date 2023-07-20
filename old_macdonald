@@ -7,7 +7,12 @@ def old_macdonald(name):
     rest = name[4:]
     return first_letter.upper() + inbetween + fourth_letter.upper() + rest
 
+#orelse 
 
+first_half = name[:3]
+second_half = name[3:]
+
+return first_half.capitalise() + second_half.capitalise()
 
 
 
