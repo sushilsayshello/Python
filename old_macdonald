@@ -2,6 +2,8 @@
 
 def old_macdonald(name):
     first_letter = name[0]
+    inbetween = name[1:3]
+
 
 
 
