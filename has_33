@@ -1,0 +1,5 @@
+#Given a list of ints, return True if array contains a 3 next to a 3 somewhere
+
+		Def has_33(nums):
+		
+
