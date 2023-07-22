@@ -2,6 +2,9 @@
 
 	def repeat_char(text):
 	    result = ''
+
+	for char in text:
+
 	    
 
 
