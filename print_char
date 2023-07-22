@@ -1,0 +1,4 @@
+#Printing chars many times 
+
+	def repeat_char(text):
+
