@@ -6,6 +6,11 @@ def summer_69(arr):
     add = True
 
     for num in arr:
+        while add:
+            if num!=6:
+                total += num
+                break
+
 
 
     
