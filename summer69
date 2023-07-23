@@ -10,6 +10,9 @@ def summer_69(arr):
             if num!=6:
                 total += num
                 break
+            else:
+                add = False
+
 
 
 
