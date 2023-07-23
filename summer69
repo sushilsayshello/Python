@@ -12,6 +12,10 @@ def summer_69(arr):
                 break
             else:
                 add = False
+        while not add:
+            if num != 9:
+                break
+
 
 
 
