@@ -1,5 +1,8 @@
 #Spy Game: Function that takes in a list of integers and returns True if it contains 007 in order
 
-		def spy_game(nums):
+def spy_game(nums):
+    code = [0,0,7,'x']
+    
+
     
 
