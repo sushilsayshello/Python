@@ -19,8 +19,9 @@
     #x is going through every number up to input num
     while x <= num:
 
+#Check if x is prime
+        for y in range(3,x,2):
 
-    
     
     
   
