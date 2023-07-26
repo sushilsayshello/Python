@@ -10,6 +10,14 @@
     ##########
     #2 or greater 
     ##############
+#Store prime numbers
+    primes = [2]
+
+#COunter going up to input num
+    x = 3
+    
+ 
+    
     
     
   
