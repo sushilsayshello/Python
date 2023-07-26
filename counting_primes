@@ -16,7 +16,10 @@
 #COunter going up to input num
     x = 3
     
- 
+    #x is going through every number up to input num
+    while x <= num:
+
+
     
     
     
