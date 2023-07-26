@@ -3,5 +3,13 @@
 	#Math_Problem_Programming
 
 		def count_primes(num):
+  
+#Check for 0 or 1  input
+    if num < 2:
+        return 0
+    ##########
+    #2 or greater 
+    ##############
+    
     
   
