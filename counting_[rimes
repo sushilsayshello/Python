@@ -1,0 +1,7 @@
+#Counting primes: Func which returns the number of prime numbers that exist up to and including a given number. 
+
+	#Math_Problem_Programming
+
+		def count_primes(num):
+    
+  
