@@ -5,7 +5,9 @@ def splicer(mystring):
         return 'EVEN'
     else:
         return mystring[0]
+names = ['Andy','Eve','Sally']
 
+list(map(splicer,names))
 
 
 
