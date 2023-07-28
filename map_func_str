@@ -1,0 +1,4 @@
+#map_function_string
+	
+def splicer(mystring):
+
