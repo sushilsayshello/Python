@@ -1,4 +1,7 @@
 #map_function_string
 	
 def splicer(mystring):
+    if len(mystring)%2 == 0:
+        return 'EVEN'
+
 
