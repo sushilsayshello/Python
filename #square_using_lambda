@@ -1,3 +1,6 @@
 #square_using_lambda
+square  =  lambda num:num ** 2  #or
+
+
 		
 
