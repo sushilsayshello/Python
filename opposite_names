@@ -1,0 +1,3 @@
+using lambda and map func
+			
+			list(map(lambda x:x[::-1],names))
