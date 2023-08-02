@@ -6,5 +6,8 @@ def generate_random_numbers(num_numbers, start_range, end_range):
 # Generate 7 random numbers between 1 and 35
 random_numbers_1_to_35 = generate_random_numbers(7, 1, 35)
 
+# Generate 1 random number between 1 and 20
+random_number_1_to_20 = generate_random_numbers(1, 1, 20)[0]
+
 
 
