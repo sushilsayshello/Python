@@ -1,4 +1,5 @@
 #LEGB Rule:
 
 L: Local - def or lambda
-E
+E:Enclosing function locals 
+
