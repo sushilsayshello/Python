@@ -3,3 +3,8 @@ import random
 def coin_toss():
     return random.choice(['Heads', 'Tails'])
 
+# Get input from the user
+num_tosses = int(input("Enter the number of coin tosses: "))
+
+
+
