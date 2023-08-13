@@ -11,6 +11,11 @@ heads_count = 0
 tails_count = 0
 
 for _ in range(num_tosses):
+    result = coin_toss()
+    if result == 'Heads':
+        heads_count += 1
+    else:
+        tails_count += 1
 
 
 # Print the results
