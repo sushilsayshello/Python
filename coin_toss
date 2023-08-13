@@ -6,5 +6,11 @@ def coin_toss():
 # Get input from the user
 num_tosses = int(input("Enter the number of coin tosses: "))
 
+# Simulate coin tosses and count the outcomes
+heads_count = 0
+tails_count = 0
+
+
+
 
 
