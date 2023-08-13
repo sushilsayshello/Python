@@ -10,6 +10,13 @@ num_tosses = int(input("Enter the number of coin tosses: "))
 heads_count = 0
 tails_count = 0
 
+for _ in range(num_tosses):
+    result = coin_toss()
+    if result == 'Heads':
+        heads_count += 1
+    else:
+        tails_count += 1
+
 
 
 
