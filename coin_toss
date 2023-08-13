@@ -17,7 +17,8 @@ for _ in range(num_tosses):
     else:
         tails_count += 1
 
-
+# Print the results
+print("Heads:", heads_count, "Tails:", tails_count)
 
 
 
