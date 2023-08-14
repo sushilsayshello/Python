@@ -2,5 +2,6 @@
 
 def unique_list(lst):
     seen_numbers = []
+    for number in lst:
 
 
