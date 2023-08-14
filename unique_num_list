@@ -1,3 +1,6 @@
 #Unique list of numbers
 
 def unique_list(lst):
+    seen_numbers = []
+
+
