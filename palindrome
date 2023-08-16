@@ -5,4 +5,5 @@
 def palindrome(s):
  #Remove spaces string
     s = s.replace('','')
-
+    #Check is string is == reversed version of the string
+    return s == s[::-1]   
