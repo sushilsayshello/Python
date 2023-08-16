@@ -3,4 +3,6 @@
 
 
 def palindrome(s):
-    
+ #Remove spaces string
+    s = s.replace('','')
+
