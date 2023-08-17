@@ -7,7 +7,10 @@ def ispangram(str1, alphabet=string.ascii_lowercase):
     alphaset = set(alphabet)
         #Remove any spaces from the input string
     str1 = str1.replace('','')
-    
+       #Convert into all lowercase
+    str1 = str1.lower()
+    print(str1)
+
 
 
 
