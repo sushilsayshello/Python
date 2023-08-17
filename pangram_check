@@ -5,6 +5,9 @@ import string
 def ispangram(str1, alphabet=string.ascii_lowercase):
         #Create a set of the alphabet
     alphaset = set(alphabet)
+        #Remove any spaces from the input string
+    str1 = str1.replace('','')
     
+
 
 
