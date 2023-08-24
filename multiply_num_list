@@ -1,4 +1,6 @@
 #Multiply all the numbers in list
 
 def multiply(numbers):
+    total = 1
+
 
