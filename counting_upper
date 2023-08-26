@@ -1,5 +1,9 @@
 def up_low(s):
     lowercase = 0
     uppercase = 0
+    for char in s:
+        if char.isupper():
+            uppercase += 1
+
     
 
