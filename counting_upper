@@ -8,7 +8,9 @@ def up_low(s):
             lowercase += 1
         else:
             pass
-        
+    print(f"Original String: {s}")
+    print(f'Lowercase count: {lowercase}')
+    print(f'Uppercase count: {uppercase}')        
 
     
 
