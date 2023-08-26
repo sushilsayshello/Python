@@ -6,6 +6,9 @@ def up_low(s):
             uppercase += 1
         elif char.islower():
             lowercase += 1
+        else:
+            pass
+        
 
     
 
