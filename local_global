@@ -16,6 +16,9 @@ def func():
     global x
     print(f'X is {x}')
 
-
+    
+    #Local Reassignment On a global variable!
+    x = 'NEW VALUE'
+    print(f'I JUST LOCALLY CHANGED global X TO {x}')
     
 
