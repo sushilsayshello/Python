@@ -5,6 +5,4 @@ try:
 except ValueError:
   print("Not an integer!")
   continue
-else:
-  print("Yes an integer!")
-  break
+
