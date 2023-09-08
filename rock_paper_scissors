@@ -2,5 +2,11 @@ import random
 
 def play_game():
     print("Welcome to Rock, Paper, Scissors!")
+    while True:
+        player_choice = input("Enter your choice (rock, paper, or scissors): ").lower()
+        if player_choice not in ["rock", "paper", "scissors"]:
+            print("Invalid choice. Please choose rock, paper, or scissors.")
+            continue
+
 
 
