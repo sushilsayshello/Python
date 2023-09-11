@@ -2,4 +2,5 @@
 
 L: Local - def or lambda
 E:Enclosing function locals 
-
+G:Global(module)
+B:Built-in(Python) - open, range, SyntaxError, len
