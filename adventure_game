@@ -25,4 +25,23 @@ def start_game():
         print("Invalid choice. Try again.")
         start_game()
 
+def left_path():
+    print("You follow the left path and encounter a hungry bear!")
+    print("What will you do?")
+    print("1. Try to run")
+    print("2. Slowly back away")
+    
+    choice = input("Enter 1 or 2: ")
+    
+    if choice == "1":
+        print("The bear catches you. Game over!")
+    elif choice == "2":
+        print("You back away slowly, and the bear loses interest.")
+        time.sleep(1)
+        print("You continue on the left path.")
+        treasure()
+    else:
+        print("Invalid choice. Try again.")
+        left_path()
+
 
