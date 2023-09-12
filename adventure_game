@@ -1,0 +1,12 @@
+import time
+
+def intro():
+    print("Welcome to the Text Adventure Game!")
+    print("You find yourself in a dark, mysterious forest.")
+    print("Your goal is to find a hidden treasure.")
+    print("Be careful with your choices, as they will determine your fate!")
+    print()
+    time.sleep(2)
+    start_game()
+
+
