@@ -63,10 +63,5 @@ def right_path():
         print("Invalid choice. Try again.")
         right_path()
 
-def treasure():
-    print("You finally reach a clearing and discover a hidden treasure chest!")
-    print("Congratulations! You've won the game.")
 
-# Start the game by calling the intro function
-intro()
 
