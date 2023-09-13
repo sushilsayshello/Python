@@ -44,5 +44,29 @@ def left_path():
         print("Invalid choice. Try again.")
         left_path()
 
+def right_path():
+    print("You take the right path and find a river.")
+    print("You see a boat nearby.")
+    print("What will you do?")
+    print("1. Take the boat")
+    print("2. Swim across")
+    
+    choice = input("Enter 1 or 2: ")
+        if choice == "1":
+        print("You take the boat and sail across the river safely.")
+        time.sleep(1)
+        print("You continue on the right path.")
+        treasure()
+    elif choice == "2":
+        print("You attempt to swim across but get caught in the current. Game over!")
+    else:
+        print("Invalid choice. Try again.")
+        right_path()
 
+def treasure():
+    print("You finally reach a clearing and discover a hidden treasure chest!")
+    print("Congratulations! You've won the game.")
+
+# Start the game by calling the intro function
+intro()
 
