@@ -19,6 +19,16 @@ def guess_the_number():
             else:
                 print(f"Congratulations! You guessed the number {secret_number} in {attempts} attempts.")
                 break
+        except ValueError:
+            print("Invalid input. Please enter a valid number.")
+
+if __name__ == "__main__":
+    guess_the_number()
+To play the game, copy and paste this code into a Python environment and run it. The computer will pick a random number between 1 and 100, and you need to guess it within as few attempts as possible.
+
+Feel free to modify and enhance the game as you like. You can add more features, such as keeping track of high scores or customizing the range of numbers.
+
+
 
 
 
