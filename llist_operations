@@ -15,6 +15,9 @@ def main():
     # Display the result
     print(f"The squared numbers are: {squared_numbers}")
 
+if __name__ == "__main__":
+    # Run the main function if the script is executed
+    main()
 
 
 
