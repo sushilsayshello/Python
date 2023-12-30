@@ -1,0 +1,4 @@
+# Exception handling
+try:
+    result = 10 / 0
+
