@@ -1,0 +1,6 @@
+# Python Programming Example
+
+# Function to calculate the area of a rectangle
+def calculate_rectangle_area(length, width):
+    return length * width
+
