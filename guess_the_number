@@ -1,0 +1,7 @@
+import random
+
+def guess_the_number():
+    print("Welcome to Guess the Number!")
+    print("I have selected a random number between 1 and 100. Try to guess it.")
+
+
