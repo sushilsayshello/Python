@@ -3,4 +3,11 @@ import pyshorteners
 def shorten_url(url):
  s = pyshorteners.Shortener()
  shortened_url = s.tinyurl.short(url)
- 
+ return shortened_url
+
+# Example usage:
+original_url = 'https://www.example.com'
+shortened_url = shorten_url(original_url)
+print(f"Original URL: {original_url}\nShortened URL: {shortened_url}")
+You can install the pyshorteners library using pip install pyshorteners.
+
