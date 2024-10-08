@@ -1,1 +1,8 @@
+def say_name(num1, num2):
+    return num1+num2
+
+''' Usually we use return which will save it as variable but print don't make sure of proper datatype'''
+
+def add_num(a,b):
+    print (a+b)
 
